@@ -60,15 +60,6 @@ export const Title = styled.h1`
   }
 `;
 
-export const Main = styled.main`
-  width: 100%;
-  height: 100%;
-  position:relative;
-  overflow: hidden;
-  color: ${({ theme }) => theme.colors.secondary};
-  background-color: ${({ theme }) => theme.colors.pimary};
-`;
-
 export const Section1 = styled.section`
   width: 100vw;
   min-height: 100vh;
@@ -244,3 +235,14 @@ export const Section2 = styled.section`
     }
   }
 `;
+
+const Main = styled.main`
+  width: 100%;
+  height: 100%;
+  position:relative;
+  overflow: hidden;
+  color: ${({ theme }) => theme.colors.secondary};
+  background-color: ${({ theme }) => theme.colors.pimary};
+`;
+
+export default Main;

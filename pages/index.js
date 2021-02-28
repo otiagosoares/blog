@@ -19,8 +19,7 @@ import {
 import { DiPhp } from 'react-icons/di';
 import { IoIosArrowDropdown } from 'react-icons/io';
 
-import {
-  Main,
+import Main, {
   Title,
   Section1,
   Section2
