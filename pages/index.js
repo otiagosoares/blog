@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import Head from "next/head";
 import Navbar from '../components/Navbar';
 import { AiFillLinkedin, AiOutlineGithub } from "react-icons/ai";
@@ -43,7 +43,20 @@ export default function Home(props) {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5R7LVZZ92"></script>
         <title>{props.profile.name}</title>
+
+        <script dangerouslySetInnerHTML={
+          {
+            __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-B5R7LVZZ92');
+          `}
+        }>
+        </script>
       </Head>
 
       {/* <Navbar /> */}
