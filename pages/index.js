@@ -88,7 +88,7 @@ export default function Home(props) {
               <a href="mailto:oi@tiagosoares.com.br" target="_blank" title="LinkedIn">
                 <SiMinutemailer />
               </a>
-              <a href="https:/www.linkedin.com/in/otiagosoares" target="_blank" title="LinkedIn">
+              <a href="https://www.linkedin.com/in/otiagosoares" target="_blank" title="LinkedIn">
                 <AiFillLinkedin />
               </a>
               <a href="https://github.com/otiagosoares" title="Github" target="_blank">
@@ -120,7 +120,7 @@ export default function Home(props) {
         </Section1>
         <Section2 ref={serction2Ref}>
           <h1>Meus Repositórios Github </h1>
-          <p>Neles você consgue ver um pouco do que estou estudando e desenvolvendo.</p>
+          <p>Neles você consegue ver um pouco do que estou estudando e desenvolvendo.</p>
           {console.log(props.repos)}
           {(props.repos.length) ?
             < div className="lista-repos">
