@@ -125,14 +125,14 @@ export default function Home(props) {
 
             <article className="box-social">
               <a
-                href="https://www.instagram.com/limpa_o_cache/"
+                href="https://www.instagram.com/tgo.exe/"
                 target="_blank"
                 title="Instagram"
               >
                 <AiOutlineInstagram />
               </a>
               <a
-                href="https://www.linkedin.com/in/@tgo.exe"
+                href="https://www.linkedin.com/in/otiagosoares"
                 target="_blank"
                 title="LinkedIn"
               >
