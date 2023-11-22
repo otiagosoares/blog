@@ -16,9 +16,6 @@
     "react-scripts": "^5.0.1",
     "styled-components": "^5.0.0"
   },
-  "overrides": {
-    "webpack": "^5.54.0"
-  },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.8.0"
   },
