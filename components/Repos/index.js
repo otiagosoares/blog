@@ -46,8 +46,6 @@ const Repos = React.forwardRef((props, ref) => (
       </a>{" "}
       e todos os dados estão sendo buscados da API do Github
     </p>
-
-    <CodePre />
   </Section2>
 ));
 
