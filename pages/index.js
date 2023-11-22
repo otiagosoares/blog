@@ -70,6 +70,8 @@ export default function Home(props) {
           `,
           }}
         ></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4525170232333356"
+     crossorigin="anonymous"></script>
       </Head>
 
       {/* <Navbar /> */}
@@ -142,7 +144,7 @@ export default function Home(props) {
                 <AiOutlineGithub />
               </a>
             </article>
-            <h4>@limpa_o_cache</h4>
+            <h4>@tgo.exe</h4>
 
             <h6>Atualmente trabalho com as seguintes tecnologias:</h6>
             <article className="box-skills">
