@@ -100,7 +100,9 @@ export default function Home(props) {
               <p>
                 <span className="hi">Olá! </span>
               </p>
-              <p> Eu trabalho remotamente desenvolvendo soluções para a web.</p>
+              <p> Atualmente trabalho remotamente desenvolvendo soluções para o Front End no time do  <a href="https://www.kabum.com.br/" target="_blank">
+                  KaBuM!
+                </a>.</p>
               <p>
                 Amo programação e novas tecnologias. Gosto de buscar novos
                 metodos e padrões que facilitem o desenvolvimento de software e
@@ -156,8 +158,6 @@ export default function Home(props) {
               <SiTypescript size={35} />
               <SiHtml5 size={35} />
               <SiCss3 size={35} />
-              <DiPhp size={35} />
-              <SiCodeigniter size={35} />
               <SiMysql size={35} />
             </article>
           </div>
