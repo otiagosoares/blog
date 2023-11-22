@@ -132,7 +132,7 @@ export default function Home(props) {
                 <AiOutlineInstagram />
               </a>
               <a
-                href="https://www.linkedin.com/in/otiagosoares"
+                href="https://www.linkedin.com/in/@tgo.exe"
                 target="_blank"
                 title="LinkedIn"
               >
@@ -146,7 +146,6 @@ export default function Home(props) {
                 <AiOutlineGithub />
               </a>
             </article>
-            <h4>@tgo.exe</h4>
 
             <h6>Atualmente trabalho com as seguintes tecnologias:</h6>
             <article className="box-skills">
